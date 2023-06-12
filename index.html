@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Split Text</title>
-</head>
-<body>
-  <div>
-    <form id="form">
-      <input type="text" id="text">
-      <input type="submit" value="Submit">
-    </form>
-  </div>
-  <div id="response"></div>
-</body>
-<script src="index.js"></script>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Split Text</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div>
+      <form id="form">
+        <div class="form__group field">
+          <input type="text" class="form__field" placeholder="Text" name="text" id="text" />
+          <label for="name" class="form__label">Text</label>
+          <input type="submit" class="form__submit" value="Split">
+        </div>
+      </form>
+    </div>
+    <div id="response"></div>
+  </body>
+  <script src="index.js"></script>
 </html>
